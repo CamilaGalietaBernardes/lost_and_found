@@ -2,12 +2,11 @@ const express = require('express');
 const cors = require('cors');
 
 const app = express();
-const port = 3001;
 
-app.use(cors());
+app.use(cors({origin: "http://localhost:3000"}));
 
-app.listen(port, () => {
-    console.log('Server listening on port 3001!', {port});
+app.listen(3001, () => {
+    console.log('Server listening on port 3001!');
 });
 
 app.use(express.json());

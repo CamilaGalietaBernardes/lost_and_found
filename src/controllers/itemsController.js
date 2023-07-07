@@ -4,8 +4,11 @@ const {Items} = require('../models/itemsModel')
 
 
 const getItems = (req, res) => {   
-    Items.findAll()
-        .then((items) => {
+    Items.findAll({
+        where: {
+            recovery_date: null,
+        },
+    }).then((items) => {
             res.json(items);
     })
         .catch((error) => {
