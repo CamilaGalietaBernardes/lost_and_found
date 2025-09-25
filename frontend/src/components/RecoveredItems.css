@@ -1,0 +1,46 @@
+.recovered-items {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:cornflowerblue;
+    background-size:cover;
+    border-collapse: collapse;
+  }
+  
+  .recovered-items h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 20px;
+    font-size: 100px;
+    font-style: bold;
+  }
+ 
+  
+  .recovered-items th,
+  .recovered-items td {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .recovered-items th {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .recovered-items td {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .recovered-items tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .recovered-items tr:hover {
+    background-color: #e6e6e6;
+  }

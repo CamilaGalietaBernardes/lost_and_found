@@ -1,0 +1,49 @@
+.new-item {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 70px;
+  background-color: #ADD8E6;
+}
+
+label {
+  font-weight: bold;
+  font-size: 25px;
+  display: block;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: justify;
+  color: rgb(102, 100, 100);
+}
+
+  input {
+  width: 90%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  text-align: center;
+  align-items: center;
+  margin-left: 5px;
+
+}
+
+  .submit-btn {
+  background-color:rgb(51, 185, 141);
+  color:aliceblue;
+  font-size: 40px;
+  font-style: bold;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 300px;
+
+}
+
+h2 {
+  font-size: 70px;
+  text-align: center;
+  color:darkblue;
+}

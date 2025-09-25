@@ -1,0 +1,34 @@
+# Node / JS
+**/node_modules/
+**/.cache/
+**/.eslintcache
+**/.tsbuildinfo
+**/coverage/
+**/dist/
+**/build/
+**/.vite/
+**/.next/
+
+# Logs
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env (mantenha apenas exemplos)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporários VSCode TypeScript
+**/vscode-typescript*

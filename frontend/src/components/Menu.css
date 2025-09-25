@@ -1,0 +1,36 @@
+header {
+    background-color: #00008B;
+    padding: 10px;
+    font-size: 30px;
+    justify-content: flex-end;
+    display: flex;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu a {
+    display: inline-block;
+    padding: 5px;
+    color: #F0F8FF;
+    text-decoration: none;
+  }
+  
+  .menu i {
+    font-size: 20px;
+    font-style: bold;
+    align-items: flex-end;
+  }
+
+  
